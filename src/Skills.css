@@ -1,0 +1,74 @@
+@font-face {
+  src:url(./fonts/sweet_hipster-webfont.ttf);
+  font-family:sweet_hipsterregular;
+}
+
+.skills-container{
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 600px; 
+ }
+
+ .skills-title{
+    font-family:sweet_hipsterregular ;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(71, 15, 109, 0.973);
+    display: flex;
+
+}
+ 
+.icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    height:90%;
+}
+
+.icon{
+  padding: 10px 0;
+  margin: auto;
+  object-fit: contain;
+  width: 90px;
+  height: 70px;
+  flex: 1;
+}
+
+.between{
+  display:flex;
+  /* margin:auto; */
+
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+   .skills-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding:10px; 
+    display: flex;
+    width:50%;
+    height:100%;
+  }
+
+  .icons{
+   flex-direction: column;
+    flex: 50%;
+ }
+}
+/* @media screen and (max-width: 992px) {
+
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding:10px; 
+    width:600px;
+    height:80vh; 
+    display: flex;
+    margin:auto;
+  }
+}  */

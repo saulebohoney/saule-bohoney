@@ -1,0 +1,80 @@
+@font-face {
+  src:url(./fonts/sweet_hipster-webfont.ttf);
+  font-family:sweet_hipsterregular;
+}
+
+ .container{
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 600px; 
+ }
+ .about-container{
+   display: flex;
+   flex-wrap: wrap;
+
+
+ }
+ .about{
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: auto;
+  height: 246px;
+  width: 200px;
+  object-fit: contain; 
+  color:rgba(71, 15, 109, 0.973);
+  font-family:sweet_hipsterregular ;
+  font-size: 2rem; 
+  outline:none;
+  flex: 1;
+  /* min-width: 80px; */
+}
+
+.aboutMe{
+    font-family:sweet_hipsterregular ;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgba(71, 15, 109, 0.973);
+    display: flex;
+}
+
+.between{
+  display:flex;
+  /* margin:auto; */
+
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding:10px; 
+    width:50%;
+    height:100%;
+  }
+
+  .about{
+  border-radius: 5px;
+  padding: 10px 0;
+  margin: auto;
+  height: 246px;
+  width: 200px;
+  object-fit: contain; 
+  color:black;
+  font-family:sweet_hipsterregular ;
+  font-size: 2rem; 
+  outline:none;
+
+  }
+  .about-container{
+   flex-direction: column;
+ }
+}
+
+
+
+/* .about:active{
+  background: greenyellow;*/

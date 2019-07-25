@@ -1,0 +1,49 @@
+@font-face {
+  src:url(./fonts/sweet_hipster-webfont.ttf);
+  font-family:sweet_hipsterregular;
+}
+header{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+}
+header h3{
+ font-family:sweet_hipsterregular ;
+ font-size: 50px;
+ font-weight: 500;
+ color: rgba(71, 15, 109, 0.973);
+ margin: 0;
+}
+
+header p{
+  font-family:sweet_hipsterregular ;
+  font-size: 50px;
+  font-weight: 500;
+  color: rgba(71, 15, 109, 0.973);
+  margin: 0;
+
+}
+header a{
+  font-weight: 400;
+  font-family: sweet_hipsterregular;
+  font-size: 30px;
+  color: rgba(71, 15, 109, 0.973);
+  border-color: white;
+  text-decoration:none;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  border-radius: .25rem;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 3px 3px 3px rgba(71, 15, 109, 0.973)
+  
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+header{
+  width: 100%;
+  
+}
+
+}
